@@ -1,8 +1,8 @@
 <script setup>
 import { ref } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
 
 const downloadSection = ref(null)
+const androidDownloadUrl = ref('https://github.com/ZhengIce/IcePlayer/releases/download/v1.0.0/IcePlayer.apk') // TODO: 请替换为您真实的下载链接
 
 const scrollToDownload = () => {
   downloadSection.value?.scrollIntoView({ behavior: 'smooth', block: 'center' })
@@ -28,7 +28,7 @@ const scrollToDownload = () => {
       </div>
       <div class="download-buttons" ref="downloadSection">
         <button class="btn-download disabled" title="敬请期待">⬇ iOS 版 (敬请期待)</button>
-        <a href="/downloads/IcePlayer-v1.0.0.apk" download class="btn-download">⬇ 立即下载 安卓版</a>
+        <a :href="androidDownloadUrl" download class="btn-download">⬇ 立即下载 安卓版</a>
       </div>
       <div class="right">
         <img src="./assets/photo1.jpg" alt="IcePlayer 1" />
