@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 
 const downloadSection = ref(null)
-const androidDownloadUrl = ref('https://github.com/ZhengIce/IcePlayer/releases/download/IcePlayer/IcePlayer-v0.4.4.apk')
+const androidDownloadUrl = ref('https://github.com/ZhengIce/IcePlayer/releases/download/V1.0.1/IcePlayer-V1.0.1.apk')
 
 const scrollToDownload = () => {
   downloadSection.value?.scrollIntoView({ behavior: 'smooth', block: 'center' })
