@@ -17,7 +17,7 @@ const scrollToDownload = () => {
     </div>
     <div class="content">
       <div class="left">
-        <span>全新v0.4.4测试版现已发布</span>
+        <span>全新v1.0.1测试版现已发布</span>
         <span>极简主义</span>
         <span>云端播放器</span>
         <span>IcePlayer 专注于提供最纯粹的听歌体验。连接你的 WebDAV 私有云，让音乐回归本质，如冰雪般纯净。</span>
